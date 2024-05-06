@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/m5.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <h1>Bootstrap Sub-Menu</h1>
+            <ul class="list-unstyled ls px-3  w-75">
+                <li class="d-inline-block dropdown">
+                    <button type="button" class="bt" data-toggle="dropdown">Dropdown</button>
+                    <button  class="bt" data-toggle="dropdown" >Dropdown</button>
+                    <ul class="dropdown-menu dropright">
+                        <li class="dropdown-item dropdown-toggle" data-toggle="dropdown"><a href="#">Action</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">Sub action</a></li>
+                                <li class="dropdown-item"><a href="#">Another sub action</a></li>
+                                <li class="dropdown-item"><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown-toggle"  data-toggle="dropdown"><a href="#">Another action</a>
+                            <ul class="dropdown-menu dropright">
+                                <li class="dropdown-item"><a href="#">Sub action</a></li>
+                                <li class="dropdown-item"><a href="#">Another sub action</a></li>
+                                <li class="dropdown-item"><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item"><a href="#">Something else here</a></li>
+                        <li class="dropdown-item"><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

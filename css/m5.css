@@ -1,0 +1,12 @@
+.ls{
+    border-radius: 5px;
+    background-color: #cecece;
+}
+.bt{
+    height: 50px;
+    background-color: transparent;
+    border: 0;
+}
+.bt:hover{
+    background-color: #b8b8b8;
+}
